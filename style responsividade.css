@@ -16,10 +16,13 @@ input[type="button"]{
     cursor: pointer;
 }
 header{
+    background-color: #502c63;
+    color: #ffff;
+    padding: 15px;  
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+    margin-bottom: 20px;
 }
 section{
     
@@ -48,6 +51,22 @@ section div img{
     object-fit: contain;
 }
 
+.formulario{
+    color: #d1ddff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #502c63;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 input[type="text"]{
     width: 400px;
     height: 30px;
@@ -64,18 +83,20 @@ input[type="text"]{
 .im{
     height: 500px;
     width:30%;
-
+   
 }
 .texto_img{
     display: flex;
     justify-content: space-around;
+
 
 }
 footer{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    background-color: #ffff;
+    background-color: #502c63;
+    color: #ffff;
     padding: 15px;
     margin-top: auto;
     
@@ -106,6 +127,16 @@ section, .texto2 {
         padding: 15px;
     }
 
+    .formulario {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario input[type="text"] {
+        width: 100%;
+        max-width: 350px;
+    }
 .texto {
         order: 1;
         width: 100%;
@@ -129,7 +160,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    background-color: #ffff;
+    background-color: #502c63;
+    color: #ffff;
     padding: 15px;
      margin-top: 30px;
     
@@ -162,7 +194,23 @@ section, .texto2 {
     .log {
         display: none; 
     }
+
+    .formulario {
+        width: 90%;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario input[type="text"], 
+    .formulario input, 
+    .formulario select, 
+    .formulario textarea {
+        width: 100%;
+    }
 footer {
         margin-top: 30px;
+        background-color: #502c63;
+        color: #ffff;
     }
 }
