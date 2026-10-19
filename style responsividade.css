@@ -36,8 +36,8 @@ section{
    
     background-color: #ffff;
     padding: 10px;
-     border-radius: 10px;
-     max-width: 100%;
+    border-radius: 10px;
+    max-width: 100%;
     height: auto; 
     display: flex;
     justify-content: space-evenly;
@@ -88,9 +88,47 @@ input[type="text"]{
 .texto_img{
     display: flex;
     justify-content: space-around;
-
-
 }
+
+.localizacao {
+
+    display:grid;
+   grid-template-columns:1fr 1fr;
+   grid-template-rows: auto auto;
+    margin-bottom: 20px;
+    background-color: #ffff;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+
+    
+}
+
+.box-endereco{
+    width: 80%;
+    height: 30%;
+    margin: auto;
+}
+
+.box-endereco h2{
+    
+    text-align: center;
+    background-color: #502c63;
+    color: #ffff;
+    padding: 20px;
+    
+}
+
+.texto-endereco{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 60%;
+    font-size: 20px;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
